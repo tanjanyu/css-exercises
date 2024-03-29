@@ -1,41 +1,48 @@
+/* Affect all elements */
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.para,
-.small-para {
+/* Affect first 2 elements */
+.para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
 
+/* Affect only 2nd element */
 .small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
-.para {
+/* Affect only 1st element */
+p {
   font-size: 22px;
 }
 
-.confirm {
+/* Affect only 3rd element */
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
 } 
 
+/* Affect both buttons */
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
-.child {
+/* Affect only last element */
+div div {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
 
-div.text {
+/* affect all divs */
+div {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
